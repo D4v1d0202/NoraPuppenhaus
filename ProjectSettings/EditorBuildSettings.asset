@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Starting Room.unity
+    guid: 1ea5faa3235c7c842ba30f7ca25c1be0
+  - enabled: 1
     path: Assets/Scenes/Main VR Scene.unity
     guid: 6e2c11a61b1514b86baa3e0019abdc93
   m_configObjects:

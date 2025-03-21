@@ -9,6 +9,7 @@ public class GrabDoor : XRSimpleInteractable
     public AudioClip clipOne;
     public AudioClip clipTwo;
     public AudioClip clipThree;
+    public AudioClip clipFour;
 
     protected override void Awake()
     {
@@ -44,6 +45,7 @@ public class GrabDoor : XRSimpleInteractable
                 ActionThree();
                 break;
             case 4:
+                PlaySound(clipFour);
                 Destroy(gameObject);
                 break;
         }
